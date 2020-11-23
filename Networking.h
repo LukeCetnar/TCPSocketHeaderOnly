@@ -42,8 +42,6 @@ NetworkHandler::NetworkHandler()
 
 
     int recvbuflen = DEFAULT_BUFLEN;
-    //std::string test = "<event version=\"2.0\" uid=\"88772c0d-b218-469f-a995-37981b209928\" type=\"a-n-S\" time=\"2020-11-20T21:01:13.618516Z\" start=\"2020-11-20T21:01:13.618516Z\" stale=\"2020-11-20T21:03:13.618516Z\" how=\"h-g-i-g-o\"><point lat=\"28.171008728590223\" lon=\"-79.92\" hae=\"0\" ce=\"9999999\" le=\"9999999\" /><detail><contact callsign=\"USNS Mercy\" /></detail><remarks><remarks source=\"AIS\" /></remarks></event>";
-    //const char* sendbuf = test.c_str();
     char recvbuf[DEFAULT_BUFLEN] = "";
 
     //----------------------
